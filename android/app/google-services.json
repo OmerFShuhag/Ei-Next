@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "922550106651",
+    "project_id": "ei-next-078-2026",
+    "storage_bucket": "ei-next-078-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922550106651:android:53c63e14bad97a0952d6be",
+        "android_client_info": {
+          "package_name": "com.example.next"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1aVeAyWKxomz1fFthiD3xNV6yNsmT3ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
