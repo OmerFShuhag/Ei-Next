@@ -98,10 +98,12 @@ class _CreateRoomScreenState extends ConsumerState<CreateRoomScreen> {
                 ),
                 keyboardType: TextInputType.number,
                 validator: (value) {
-                  if (value == null || value.isEmpty)
+                  if (value == null || value.isEmpty) {
                     return 'Please enter start ID';
-                  if (int.tryParse(value) == null)
+                  }
+                  if (int.tryParse(value) == null) {
                     return 'Please enter a valid number';
+                  }
                   return null;
                 },
               ),

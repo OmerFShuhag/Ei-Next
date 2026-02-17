@@ -89,8 +89,9 @@ class _JoinRoomScreenState extends ConsumerState<JoinRoomScreen> {
                 ),
                 textCapitalization: TextCapitalization.characters,
                 validator: (value) {
-                  if (value == null || value.isEmpty)
+                  if (value == null || value.isEmpty) {
                     return 'Please enter Room Code';
+                  }
                   return null;
                 },
               ),
@@ -104,8 +105,9 @@ class _JoinRoomScreenState extends ConsumerState<JoinRoomScreen> {
                 ),
                 keyboardType: TextInputType.number,
                 validator: (value) {
-                  if (value == null || value.isEmpty)
+                  if (value == null || value.isEmpty) {
                     return 'Please enter Student ID';
+                  }
                   if (int.tryParse(value) == null) return 'Invalid ID';
                   return null;
                 },

@@ -27,7 +27,6 @@ class EiNextApp extends StatelessWidget {
           primary: const Color(0xFF6C63FF),
           secondary: const Color(0xFF03DAC6),
           surface: const Color(0xFFF5F5FA),
-          background: const Color(0xFFF5F5FA),
         ),
         scaffoldBackgroundColor: const Color(0xFFF5F5FA),
         textTheme: GoogleFonts.outfitTextTheme(Theme.of(context).textTheme),
